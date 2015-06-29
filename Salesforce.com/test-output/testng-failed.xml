@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automating Salesforce]">
+  <test name="Contact Test(failed)">
+    <classes>
+      <class name="dd_testcases.Contact">
+        <methods>
+          <include name="createNewContact"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="isExecutable"/>
+        </methods>
+      </class> <!-- dd_testcases.Contact -->
+      <class name="dd_testcases.Login">
+        <methods>
+          <include name="isExecutable"/>
+        </methods>
+      </class> <!-- dd_testcases.Login -->
+      <class name="dd_testcases.Signup">
+        <methods>
+          <include name="isExecutable"/>
+        </methods>
+      </class> <!-- dd_testcases.Signup -->
+      <class name="dd_testcases.selectRole">
+        <methods>
+          <include name="isExecutable"/>
+        </methods>
+      </class> <!-- dd_testcases.selectRole -->
+    </classes>
+  </test> <!-- Contact Test(failed) -->
+</suite> <!-- Failed suite [Automating Salesforce] -->

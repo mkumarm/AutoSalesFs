@@ -1,0 +1,29 @@
+28/06/2015 23:05:46 devpinoyLogger loading OR Properties file
+28/06/2015 23:05:46 devpinoyLogger loading Config Properties file
+28/06/2015 23:06:09 devpinoyLogger loading Firefox
+28/06/2015 23:06:13 devpinoyLogger Test Case Login : Y
+28/06/2015 23:06:13 devpinoyLogger Logging for the user manoj.qa@outlook.com
+28/06/2015 23:06:13 devpinoyLogger username
+28/06/2015 23:06:13 devpinoyLogger password
+28/06/2015 23:06:14 devpinoyLogger signin
+28/06/2015 23:06:15 devpinoyLogger error
+28/06/2015 23:06:15 devpinoyLogger error
+28/06/2015 23:06:16 devpinoyLogger Logging for the user manoj.shop@outlook.com
+28/06/2015 23:06:16 devpinoyLogger username
+28/06/2015 23:06:16 devpinoyLogger password
+28/06/2015 23:06:17 devpinoyLogger signin
+28/06/2015 23:06:17 devpinoyLogger error
+28/06/2015 23:06:40 devpinoyLogger Could not find the element "error"
+28/06/2015 23:06:41 devpinoyLogger Test Case selectRole : Y
+28/06/2015 23:06:41 devpinoyLogger Selecting IT Role
+28/06/2015 23:06:41 devpinoyLogger role_it
+28/06/2015 23:06:41 devpinoyLogger role_it
+28/06/2015 23:06:42 devpinoyLogger Taking a powernap for few sec
+28/06/2015 23:07:15 devpinoyLogger Getting all windows handle
+28/06/2015 23:07:16 devpinoyLogger Test Case Contact : Y
+28/06/2015 23:07:16 devpinoyLogger Starting TC - Select Contact
+28/06/2015 23:07:16 devpinoyLogger mnuContact
+28/06/2015 23:07:17 devpinoyLogger ddView
+28/06/2015 23:07:26 devpinoyLogger btnGo
+28/06/2015 23:07:32 devpinoyLogger btnNewContact
+28/06/2015 23:07:37 devpinoyLogger lblNewContact

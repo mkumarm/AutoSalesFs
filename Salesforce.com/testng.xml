@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automating Salesforce">
+
+<test name="Free Trial Signup">
+    <classes>
+        <class name="dd_testcases.Signup" ></class>  
+    </classes>
+</test>
+
+<test name="Login Test"> 
+    <classes>
+        <class name="dd_testcases.Login" ></class>  
+    </classes>
+</test>
+
+<test name="Selecting A Role Test"> 
+    <classes>
+        <class name="dd_testcases.selectRole" ></class>  
+    </classes>
+</test>
+
+
+<test name="Contact Test"> 
+    <classes>
+        <class name="dd_testcases.Contact" ></class>  
+    </classes>
+</test>
+
+</suite>

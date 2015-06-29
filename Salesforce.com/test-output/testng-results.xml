@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automating Salesforce" duration-ms="85688" started-at="2015-06-28T17:36:12Z" finished-at="2015-06-28T17:37:38Z">
+    <groups>
+    </groups>
+    <test name="Free Trial Signup" duration-ms="64" started-at="2015-06-28T17:36:12Z" finished-at="2015-06-28T17:36:12Z">
+      <class name="dd_testcases.Signup">
+        <test-method status="SKIP" signature="isExecutable()[pri:0, instance:dd_testcases.Signup@36ebc363]" name="isExecutable" is-config="true" duration-ms="0" started-at="2015-06-28T23:06:12Z" finished-at="2015-06-28T23:06:12Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test Execution Set To 'N']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test Execution Set To 'N'
+	at dd_testcases.Signup.isExecutable(Signup.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isExecutable -->
+        <test-method status="SKIP" signature="ResetPage()[pri:0, instance:dd_testcases.Signup@36ebc363]" name="ResetPage" is-config="true" duration-ms="0" started-at="2015-06-28T23:06:12Z" finished-at="2015-06-28T23:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPage -->
+      </class> <!-- dd_testcases.Signup -->
+    </test> <!-- Free Trial Signup -->
+    <test name="Login Test" duration-ms="28381" started-at="2015-06-28T17:36:12Z" finished-at="2015-06-28T17:36:41Z">
+      <class name="dd_testcases.Login">
+        <test-method status="PASS" signature="isExecutable()[pri:0, instance:dd_testcases.Login@233795b6]" name="isExecutable" is-config="true" duration-ms="13" started-at="2015-06-28T23:06:13Z" finished-at="2015-06-28T23:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isExecutable -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.Login@233795b6]" name="doLogin" duration-ms="3363" started-at="2015-06-28T23:06:13Z" data-provider="getData" finished-at="2015-06-28T23:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manoj.qa@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.Login@233795b6]" name="doLogin" duration-ms="24924" started-at="2015-06-28T23:06:16Z" data-provider="getData" finished-at="2015-06-28T23:06:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manoj.shop@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11qazWSX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- dd_testcases.Login -->
+    </test> <!-- Login Test -->
+    <test name="Selecting A Role Test" duration-ms="35241" started-at="2015-06-28T17:36:41Z" finished-at="2015-06-28T17:37:16Z">
+      <class name="dd_testcases.selectRole">
+        <test-method status="PASS" signature="isExecutable()[pri:0, instance:dd_testcases.selectRole@3b0090a4]" name="isExecutable" is-config="true" duration-ms="0" started-at="2015-06-28T23:06:41Z" finished-at="2015-06-28T23:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isExecutable -->
+        <test-method status="PASS" signature="selectOrgRole()[pri:0, instance:dd_testcases.selectRole@3b0090a4]" name="selectOrgRole" duration-ms="686" started-at="2015-06-28T23:06:41Z" finished-at="2015-06-28T23:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOrgRole -->
+        <test-method status="PASS" signature="closePopup()[pri:0, instance:dd_testcases.selectRole@3b0090a4]" name="closePopup" duration-ms="34508" started-at="2015-06-28T23:06:42Z" finished-at="2015-06-28T23:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopup -->
+      </class> <!-- dd_testcases.selectRole -->
+    </test> <!-- Selecting A Role Test -->
+    <test name="Contact Test" duration-ms="21868" started-at="2015-06-28T17:37:16Z" finished-at="2015-06-28T17:37:38Z">
+      <class name="dd_testcases.Contact">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:dd_testcases.Contact@1a677343]" name="setUp" is-config="true" duration-ms="26060" started-at="2015-06-28T23:05:46Z" finished-at="2015-06-28T23:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isExecutable()[pri:0, instance:dd_testcases.Contact@1a677343]" name="isExecutable" is-config="true" duration-ms="20" started-at="2015-06-28T23:07:16Z" finished-at="2015-06-28T23:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isExecutable -->
+        <test-method status="PASS" signature="doSelectContact()[pri:0, instance:dd_testcases.Contact@1a677343]" name="doSelectContact" duration-ms="21799" started-at="2015-06-28T23:07:16Z" finished-at="2015-06-28T23:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSelectContact -->
+        <test-method status="FAIL" signature="createNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.Contact@1a677343]" name="createNewContact" duration-ms="0" started-at="2015-06-28T23:07:38Z" data-provider="getData" finished-at="2015-06-28T23:07:38Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void dd_testcases.Contact.createNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : getData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void dd_testcases.Contact.createNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : getData
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:268)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:417)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:dd_testcases.Contact@1a677343]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-06-28T23:07:38Z" finished-at="2015-06-28T23:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dd_testcases.Contact -->
+    </test> <!-- Contact Test -->
+  </suite> <!-- Automating Salesforce -->
+</testng-results>

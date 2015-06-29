@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automating_Salesforce">
+              <span class="suite-name border-failed">Automating Salesforce</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automating_Salesforce">
+                    <span>C:\Selenium\Day1\Salesforce.com\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automating_Salesforce">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automating_Salesforce">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automating_Salesforce">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automating_Salesforce">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automating_Salesforce">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automating_Salesforce">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automating_Salesforce" class="hide-methods failed suite-Automating_Salesforce"> (hide)</a> <!-- hide-methods failed suite-Automating_Salesforce -->
+                      <a href="#" panel-name="suite-Automating_Salesforce" class="show-methods failed suite-Automating_Salesforce"> (show)</a> <!-- show-methods failed suite-Automating_Salesforce -->
+                    </span>
+                    <div class="method-list-content failed suite-Automating_Salesforce">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_Salesforce" title="dd_testcases.Contact" hash-for-method="createNewContact">createNewContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automating_Salesforce -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automating_Salesforce" class="hide-methods passed suite-Automating_Salesforce"> (hide)</a> <!-- hide-methods passed suite-Automating_Salesforce -->
+                      <a href="#" panel-name="suite-Automating_Salesforce" class="show-methods passed suite-Automating_Salesforce"> (show)</a> <!-- show-methods passed suite-Automating_Salesforce -->
+                    </span>
+                    <div class="method-list-content passed suite-Automating_Salesforce">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_Salesforce" title="dd_testcases.selectRole" hash-for-method="closePopup">closePopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_Salesforce" title="dd_testcases.Login" hash-for-method="doLogin(manoj.qa@outlook.com, abcd@1234)">doLogin(manoj.qa@outlook.com, abcd@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_Salesforce" title="dd_testcases.Login" hash-for-method="doLogin(manoj.shop@outlook.com, 11qazWSX)">doLogin(manoj.shop@outlook.com, 11qazWSX)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_Salesforce" title="dd_testcases.Contact" hash-for-method="doSelectContact">doSelectContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_Salesforce" title="dd_testcases.selectRole" hash-for-method="selectOrgRole">selectOrgRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automating_Salesforce -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automating_Salesforce" class="panel Automating_Salesforce">
+          <div class="suite-Automating_Salesforce-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dd_testcases.Contact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContact">
+                  </a> <!-- createNewContact -->
+                  <span class="method-name">createNewContact</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method public void dd_testcases.Contact.createNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : getData
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_Salesforce-class-failed -->
+          <div class="suite-Automating_Salesforce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dd_testcases.Contact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSelectContact">
+                  </a> <!-- doSelectContact -->
+                  <span class="method-name">doSelectContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_Salesforce-class-passed -->
+          <div class="suite-Automating_Salesforce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dd_testcases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(manoj.qa@outlook.com, abcd@1234)">
+                  </a> <!-- doLogin(manoj.qa@outlook.com, abcd@1234) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(manoj.qa@outlook.com, abcd@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(manoj.shop@outlook.com, 11qazWSX)">
+                  </a> <!-- doLogin(manoj.shop@outlook.com, 11qazWSX) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(manoj.shop@outlook.com, 11qazWSX)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_Salesforce-class-passed -->
+          <div class="suite-Automating_Salesforce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dd_testcases.selectRole</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closePopup">
+                  </a> <!-- closePopup -->
+                  <span class="method-name">closePopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOrgRole">
+                  </a> <!-- selectOrgRole -->
+                  <span class="method-name">selectOrgRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_Salesforce-class-passed -->
+        </div> <!-- panel Automating_Salesforce -->
+        <div panel-name="test-xml-Automating_Salesforce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium\Day1\Salesforce.com\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automating Salesforce&quot;&gt;
+  &lt;test name=&quot;Free Trial Signup&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.Signup&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Free Trial Signup --&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test name=&quot;Selecting A Role Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.selectRole&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Selecting A Role Test --&gt;
+  &lt;test name=&quot;Contact Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.Contact&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contact Test --&gt;
+&lt;/suite&gt; &lt;!-- Automating Salesforce --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automating_Salesforce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automating Salesforce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Free Trial Signup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Selecting A Role Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contact Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automating_Salesforce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automating Salesforce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automating_Salesforce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automating Salesforce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automating_Salesforce');
+function tableData_Automating_Salesforce() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'closePopup')
+data.setCell(0, 2, 'dd_testcases.selectRole')
+data.setCell(0, 3, 34508);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doLogin')
+data.setCell(1, 2, 'dd_testcases.Login')
+data.setCell(1, 3, 24924);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doSelectContact')
+data.setCell(2, 2, 'dd_testcases.Contact')
+data.setCell(2, 3, 21799);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doLogin')
+data.setCell(3, 2, 'dd_testcases.Login')
+data.setCell(3, 3, 3363);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectOrgRole')
+data.setCell(4, 2, 'dd_testcases.selectRole')
+data.setCell(4, 3, 686);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createNewContact')
+data.setCell(5, 2, 'dd_testcases.Contact')
+data.setCell(5, 3, 0);
+window.suiteTableData['Automating_Salesforce']= { tableData: data, tableDiv: 'times-div-Automating_Salesforce'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Automating_Salesforce">
+              </div> <!-- times-div-Automating_Salesforce -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automating_Salesforce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automating Salesforce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automating_Salesforce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">dd_testcases.Signup</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">doSignup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automating_Salesforce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.Contact</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.Signup</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">isExecutable</span>
+                <span class="method-start">26060 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">isExecutable</span>
+                <span class="method-start">26240 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(manoj.qa@outlook.com, abcd@1234)</span>
+                <span class="method-start">26280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doLogin(manoj.shop@outlook.com, 11qazWSX)</span>
+                <span class="method-start">29643 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.selectRole</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">isExecutable</span>
+                <span class="method-start">54598 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">selectOrgRole</span>
+                <span class="method-start">54598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closePopup</span>
+                <span class="method-start">55331 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.Contact</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">isExecutable</span>
+                <span class="method-start">89880 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">doSelectContact</span>
+                <span class="method-start">89900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111748 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
