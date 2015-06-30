@@ -26,6 +26,7 @@ public class Contact extends TestCore{
 	@Test (priority = 1, enabled = true)
 	public void doSelectContact()
 	{
+		//Added a comment
 		log.debug("Starting TC - Select Contact");
 		findElement("mnuContact").click();
 		Select select = new Select(findElement("ddView"));
