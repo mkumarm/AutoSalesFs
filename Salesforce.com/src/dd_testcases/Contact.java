@@ -48,8 +48,8 @@ public class Contact extends TestCore{
 		
 	}
 	
-	//dependsOnMethods = { "doSelectContact" },
-	@Test (priority = 2, dataProvider="getData")
+	//
+	@Test (priority = 2, dataProvider="getData", dependsOnMethods = { "doSelectContact" })
 	public void createNewContact(String ddName,String txtFirstName,String txtMiddleName, String txtLastName, String txtSuffix, String txtAccName, String txtTitle, String txtEmail,String txtPhone, String txtMobile, String txtReportsTo, String txtDept, String txtFax,String txtMStreet, String txtMCity, String txtMState, String txtMZip, String txtMCounty)
 	{
 		System.out.println("Testcase 21");
