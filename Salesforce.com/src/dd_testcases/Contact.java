@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import dd_core.TestCore;
@@ -19,6 +20,15 @@ public class Contact extends TestCore{
 		{
 			throw new SkipException("Test Execution Set To 'N'");
 		}
+	}
+	
+	
+	@DataProvider
+	public Object[][] getData(){
+		 
+		 
+		 return TestUtil.getData("Contact");
+		
 	}
 	
 	
@@ -41,6 +51,8 @@ public class Contact extends TestCore{
 	@Test (priority = 2, dataProvider="getData")
 	public void createNewContact(String ddName,String txtFirstName,String txtMiddleName, String txtLastName, String txtSuffix, String txtAccName, String txtTitle, String txtEmail,String txtPhone, String txtMobile, String txtReportsTo, String txtDept, String txtFax,String txtMStreet, String txtMCity, String txtMState, String txtMZip, String txtMCounty)
 	{
+		System.out.println("Testcase 21");
+		
 		log.debug("Filling new contact form");
 		Select select = new Select(findElement("ddName"));
 		select.selectByVisibleText(ddName);
